@@ -7,6 +7,6 @@ button:hover {
     background-color: #008000;
 }
 
-button::after {
-    content: "¡Hecho!";
-}
+    button:hover::before {
+        content: "¡Hecho!";
+    }
