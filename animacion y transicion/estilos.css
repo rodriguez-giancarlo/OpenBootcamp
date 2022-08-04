@@ -1,0 +1,14 @@
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rebeccapurple;
+    background-color: greenyellow;
+    color: rgb(255, 0, 0);
+    transition: 0.4s;
+}
+
+button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
